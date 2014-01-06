@@ -1,0 +1,41 @@
+body{background:#6DCFF6;color:#000000;padding:0px;margin:0px;font-size:80%;line-height:160%;font-family:"ＭＳ Ｐゴシック",Osaka;}
+a{color:#3399ff;}
+a:visited{color:#8B5DFF;}
+a:hover{color:#FF8CE8;}
+
+h1{text-align:right;font-size:40px;color:#ffffff;padding-top:7px;padding-left:0px;position:absolute;right:0px;top:0px;} /*サイトのタイトル部分です*/
+
+h2{width:700px;height:70px;font-size:18px;color:#ffffff;padding:4px 0 0 8px;margin:0 0 0 8px;background:url(img/h2.gif) no-repeat left top;} /*各コンテンツのタイトル部分で、*paddingの順番は、上、右、下、左です*/
+
+
+/*メインブロックのスタイルです*/ 
+#main{width:876px;}
+#inbox{background:url(img/main.gif);width:800px;padding:0;margin:0;min-height:50%;}
+.box{padding:0 20px 20px 50px;margin:0 20px -10px 50px;}
+.top{width:800px;height:276px;padding:0;margin:0;background:url(img/head.gif) no-repeat;} /*角丸部分のスタイルです*/ 
+.bottom{width:800px;height:117px;padding:0;margin:0;background:url(img/foot.gif) no-repeat left top;} /*角丸部分のスタイルです*/ 
+
+
+/*ナビゲーションのスタイルです*/
+#navi{color:#005884;font-size:20px;font-weight:bold;width:704px;height:32px;position:absolute;top:200px;left:74px;border-bottom:1px dashed #6DCFF6;}
+#navi a{text-decoration:none;color:#0000ff;}
+#navi a:visited{text-decoration:none;color:#907AFF;}
+#navi a:hover{color:#FF51E4;}
+#home{padding:4px 10px;float:left;}
+#profile{padding:4px 10px;float:left;}
+#gallery{padding:4px 10px;float:left;}
+#bbs{padding:4px 10px;float:left;}
+#diary{padding:4px 10px;float:left;}
+#link{padding:4px 10px;float:left;}
+
+ /*リンクページのスタイルです*/
+.linktext{padding:5px;height:31px;}
+.ban{float:left;padding:0;margin:8px;width:88px;height:31px;background-color:#C9E9FF;clear:both;}
+a img{border:none;}
+#by{font-size:10px;position:absolute;left:0px;top:0px;} /*製作者表示のスタイルです*/
+#by a{text-decoration:none;}
+
+
+/*ギャラリー部分のスタイルです*/
+.gimg{float:left;padding:5px 12px 5px 4px;clear:both;clear:all;}/*paddingの順番は、上、右、下、左です*/
+.gtxt{padding:8px 0;margin:8px 0;}/*paddingの順番は、上下、左右です*/
